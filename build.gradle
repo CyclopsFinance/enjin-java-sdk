@@ -12,6 +12,7 @@ buildscript {
             'websocket'               : "org.java-websocket:Java-WebSocket:${websocketVersion}",
             'junitPlatform'           : "org.junit.platform:junit-platform-engine:${junitPlatformVersion}",
             'junitJupiter'            : "org.junit.jupiter:junit-jupiter:${junitJupiterVersion}",
+            'easyMock'                : "org.easymock:easymock:${easyMockVersion}",
     ]
 
     ext.local = new Properties()

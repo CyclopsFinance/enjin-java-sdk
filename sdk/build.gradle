@@ -33,6 +33,7 @@ dependencies {
     implementation deps.retrofitGson
     implementation deps.junitPlatform
     implementation deps.junitJupiter
+    implementation deps.easyMock
 }
 
 task processSource(type: Sync) {
